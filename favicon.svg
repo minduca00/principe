@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+ <rect width="64" height="64" fill="#070506"/>
+ <g fill="none" stroke="#C9A227" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M14 24l7 6 11-13 11 13 7-6v16H14V24z"/>
+    <path d="M14 45h36" stroke-linecap="round"/>
+ </g>
+ <circle cx="14" cy="21" r="2.4" fill="#E7C766"/>
+ <circle cx="32" cy="13" r="2.4" fill="#E7C766"/>
+ <circle cx="50" cy="21" r="2.4" fill="#E7C766"/>
+ <text x="32" y="39" text-anchor="middle" font-family="Cinzel, Georgia, serif"
+        font-size="13" font-weight="700" fill="#E7C766" letter-spacing="1">PB</text>
+</svg>
