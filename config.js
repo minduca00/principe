@@ -30,18 +30,21 @@ window.SITE = {
   FOTO_HERO_ALT: "O Príncipe do Brega em apresentação",
 
   /* ---------- O PRÍNCIPE (institucional) ---------- */
-  SOBRE_SUBTITULO: "Uma voz que carrega o romantismo do brega.",
+  SOBRE_SUBTITULO: "Um nome que nasceu da estrada, ganhou significado no palco e hoje representa uma nova fase na música.",
   FOTO_SOBRE: "fotos/{E011AE65-34B0-429D-A24A-3378C634F34B}.png",
 
   /* Bio institucional (texto oficial fornecido). */
   SOBRE_PARAGRAFOS: [
-    "Mais do que um nome artístico, O Príncipe do Brega representa uma identidade construída em torno da música, da paixão e da cultura popular.",
-    "Em cada canção e apresentação, João Paulo busca transformar sentimentos e histórias em música, aproximando o artista do público e fortalecendo sua presença na cena musical."
+    "Depois de um período afastado da música, comecei a ouvir de pessoas próximas e admiradores que minha trajetória, marcada por grandes bandas, experiências e referências musicais, poderia representar algo maior. Foi assim, de maneira espontânea, que nasceu o nome **“O Príncipe do Brega”**.",
+    "Em 2021, durante a pandemia, decidi retornar à música e comecei a construir um novo projeto artístico. No estúdio, diante da pergunta sobre como essa nova fase se chamaria, a resposta veio naturalmente: **“O Príncipe.”** O apelido deixou de ser apenas uma forma carinhosa de me apresentar e passou a traduzir minha identidade no palco.",
+    "Depois de desafios, pausas e muito aprendizado, retorno com mais experiência, preparação e determinação. O nome **“O Príncipe do Brega”** foi oficialmente registrado no **INPI**, consolidando uma marca que nasceu da vivência com o público e da paixão pela música.",
+    "Hoje, cada canção e cada apresentação carregam gratidão a Deus, à minha família, aos amigos e a todos que acreditaram nessa história. **O Príncipe do Brega está de volta. E esta história está apenas começando.**"
   ],
 
   SOBRE_DESTAQUES: [
-    { titulo: "Trajetória", texto: "Cantor e compositor, João Paulo vem construindo sua trajetória artística através da música e das apresentações." },
-    { titulo: "Estilo",     texto: "Brega e brega romântico: canções românticas, paixão e emoção." }
+    { titulo: "Uma história real", texto: "Um nome nascido da trajetória, da experiência e do encontro com o público." },
+    { titulo: "Brega com identidade", texto: "Romantismo, paixão e presença de palco em uma assinatura própria." },
+    { titulo: "Uma nova fase", texto: "Mais experiência, preparação e música para chegar a novos públicos." }
   ],
 
   /* ---------- BIOGRAFIA ---------- */

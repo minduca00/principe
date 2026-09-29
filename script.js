@@ -42,21 +42,26 @@
   aplicarFoto('heroFoto', S.FOTO_HERO, S.FOTO_HERO_ALT);
   aplicarFoto('sobreFoto', S.FOTO_SOBRE, 'Retrato do artista');
 
-  if (S.SOBRE_SUBTITULO) {
-    var st = $('#sobreSubtitulo'); if (st) st.textContent = S.SOBRE_SUBTITULO;
+  var st = $('#sobreSubtitulo');
+  if (st) {
+    if (S.SOBRE_SUBTITULO) st.textContent = S.SOBRE_SUBTITULO;
+    else st.style.display = 'none';
   }
   var sp = $('#sobreParagrafos');
   if (sp && S.SOBRE_PARAGRAFOS) {
     sp.innerHTML = S.SOBRE_PARAGRAFOS.map(function (p) {
-      return '<p class="editavel">' + textoPendente(p) + '</p>';
+      return '<p class="editavel">' + textoPendente(p).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') + '</p>';
     }).join('');
   }
   var stp = $('#sobreTopicos');
   if (stp && S.SOBRE_DESTAQUES) {
-    stp.innerHTML = S.SOBRE_DESTAQUES.map(function (t) {
-      return '<div class="topico"><b>' + esc(t.titulo) + '</b><span>' +
-             textoPendente(t.texto) + '</span></div>';
-    }).join('');
+    if (!S.SOBRE_DESTAQUES.length) stp.style.display = 'none';
+    else {
+      stp.innerHTML = S.SOBRE_DESTAQUES.map(function (t) {
+        return '<div class="topico"><b>' + esc(t.titulo) + '</b><span>' +
+               textoPendente(t.texto) + '</span></div>';
+      }).join('');
+    }
   }
   var bp = $('#bioParagrafos');
   if (bp && S.BIO_PARAGRAFOS) {
